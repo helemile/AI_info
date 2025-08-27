@@ -1,0 +1,98 @@
+你好，我是杰哥。
+
+AI基准测试和洞察提供商 **Artificial Analysis** 最近发布了《**State of AI: China Q2 2025 Highlights Report**》（**2025年Q2 中国人工智能现状分析报告**），聚焦中国 AI 发展现状。
+
+![](https://i-blog.csdnimg.cn/img_convert/6daf8ea2eb0e03e35e06efec444164dc.png)
+
+报告通过全面基准测试，包括语言模型API的性能评估和人群 sourced 竞技场投票，分析了AI技术和用例。数据来源于 **Artificial Analysis Intelligence Index**，该指数整合了7项评估：**MMLU-Pro**、**GPQA Diamond**、**Humanity's Last Exam**、**LiveCodeBench**、**SciCode**、**AIME** 和 **MATH-500**。报告强调，**中国 AI 实验室在前沿模型智能上迅速追赶美国，差距显著缩小。**以下是报告的核心内容整理，力求准确、客观。
+
+#### 中美 AI 前沿差距缩小
+
+![](https://i-blog.csdnimg.cn/img_convert/6c67afba2f20a98e22d3ec664f54f2e1.png)
+
+报告指出，中国领先 AI 实验室与美国领导者的性能差距已从 **ChatGPT** 发布后的超过一年，缩小到不到三个月。具体而言，自 2022 年 ChatGPT 发布以来，中美前沿语言模型的差距持续存在，但如今已达到历史最小。**DeepSeek**的开源权重模型 **R1**（2025 年5月发布）领导中国AI实验室，而 **OpenAI** 的 **o3** 是美国最领先模型。中国进展主要由 **DeepSeek** 和 **Alibaba** 驱动，美国则主要依赖 **OpenAI**。
+
+![](https://i-blog.csdnimg.cn/img_convert/8883e02b592731c4fcd159631f4c7002.png)
+
+在开源权重模型方面，中国于2024年11月通过 **Alibaba** 的 **QwQ 32B Preview** 超过美国（超越 **Meta** 的 **Llama 3.1 405B**）。**DeepSeek** 的 **R1**（2025年1月）是首个与中国 **OpenAI o1** 竞争的开源权重推理模型，而 **R1 0528**（2025年5月）则是当前最智能的开源权重模型。这反映了中国顶级AI实验室倾向于发布旗舰模型权重，与美国实验室（如 **OpenAI**、**Anthropic** 和 **Google**）的封闭策略形成对比。
+
+#### 中国领先 AI 实验室的稳步推进
+
+![](https://i-blog.csdnimg.cn/img_convert/efe4dcbdd5d72c36c02f239290d7c627.png)
+
+**DeepSeek** 和 **Alibaba** 是中国AI前沿的主要推动者。截至2025年5月，**DeepSeek R1 0528** 在智能上略领先 **Alibaba** 的 **Qwen3 235B A22B**。两家公司均采用开源权重策略，促进模型在国内外广泛采用。在过去两年，它们每隔最多约3个月发布新模型。
+
+![](https://i-blog.csdnimg.cn/img_convert/cd254b46f6da236b7656354837797f7f.png)
+
+**DeepSeek** 的模型智能自2023年11月首次发布以来快速提升：从 **DeepSeek LLM 67B**（智能指数20）到 **V2**（35）、**V2.5**（46）、**V3**（60）、**R1**（68），再到 **R1-0528**（68）。**R1-0528** 是对 **V3/R1** 架构的后训练更新，无需改变671B参数（活跃37B），突显强化学习（**RL**）技术在推理模型中的重要性。这使 **DeepSeek** 跃升为全球第二AI实验室，与 **xAI**、**Meta** 和 **Anthropic** 并列，并成为无可争议的开源权重领导者。
+
+#### 美国AI实验室竞争加剧
+
+![](https://i-blog.csdnimg.cn/img_convert/75b9a76b510373dd2a25247fcdac2428.png)
+
+在美国，**OpenAI** 的主导地位减弱。其他实验室如 **Google**、**xAI** 和 **Anthropic** 已缩小差距。截至2025年5月，**OpenAI o3** 是美国最智能模型（整体最智能）。**Google** 的 **Gemini 2.5 Pro**、**xAI** 的 **Grok3 mini reasoning (high)** 和 **Anthropic** 的 **Claude Opus 4 (Extended Thinking)** 紧随其后。
+
+#### 中国AI玩家的分类与生态
+
+报告将中国AI玩家分为三类：**大科技公司**、**AI初创公司**，以及**其他有 AI 野心的公司**。
+
+![](https://i-blog.csdnimg.cn/img_convert/8efabba4d49c3e5502bbfed64c6f99dd.png)
+
+**大科技公司**包括：
+
+![](https://i-blog.csdnimg.cn/img_convert/3314272bd2ff8e992f240e1787fc7d23.png)
+
+- **Alibaba**：市值约300B美元，策略包括发布领先开源模型（如 **Qwen**）和通过 **Alibaba Cloud** 提供推理。最佳非推理模型 **Qwen3-235B-A22B**（智能47），最佳推理模型 **Qwen3-235B-A22B (Reasoning)**（62）。消费者应用 **Tongyi Qianwen**（约150M MAU）。
+
+- **ByteDance**：私有公司，拥有 **Doubao**（约110M MAU）。最佳非推理 **Doubao 1.5 Pro**（48*），最佳推理 **Seed-Thinking-v1.5**（62*）。通过 **Volcano Engine** 提供服务。
+- **Huawei**：私有，专注芯片和硬件。最佳非推理 **Pangu 5.0 Large**（未基准），无公开推理模型。应用 **Celia**（约200M MAU）。
+
+- **Tencent**：市值约575B美元。最佳非推理 **Hunyuan TurboS**（47*），最佳推理 **Hunyuan T1**（59*）。应用 **Yuanbao** 和 **Yuanqi**（约40M MAU）。
+
+- **Baidu**：市值约30B美元。最佳非推理 **ERNIE 4.5**（46*），最佳推理 **ERNIE X1**（60*）。应用 **Wenxin Yiyan**（约13M MAU）。
+
+**AI初创公司**包括：
+
+![](https://i-blog.csdnimg.cn/img_convert/8208f1521ad4e87172ea82700b2fcd4b.png)
+
+- **DeepSeek**（2023年5月成立）：最佳非推理 **DeepSeek V3**（52），最佳推理 **DeepSeek R1**（68）。应用 **DeepSeek Chat**（约100M MAU）。资金 undisclosed。
+- **Moonshot AI**（2023年3月）：最佳非推理 **Moonshot v1**（30*），最佳推理 **Kimi K1.5**（58*）。应用 **Kimi**（约25M MAU）。资金约1.6B美元。
+- **Zhipu**（2019年6月）：最佳非推理 **GLM-4-32B**（46），最佳推理 **GLM-Z1-32B**（56）。应用 **ChatGLM**（约9M MAU）。资金约1.1B美元。
+- **StepFun**（2023年4月）：最佳非推理 **Step-2**（44），最佳推理 **Step-R1-V-Mini**（55*）。应用 **Yuewen** 和 **PopDuck**（<1M MAU）。资金 undisclosed。
+- **MiniMax**（2021年12月）：最佳非推理 **MiniMax-Text-01**（40）。应用 **Talkie AI**（约35M MAU）。资金约0.85B美元。
+- **01.AI**（2023年3月）：最佳非推理 **Yi-Lightning**（37*）。应用 **YiChat**（<1M MAU）。资金约0.2B美元。
+- **Baichuan**（2023年4月）：最佳非推理 **Baichuan 4**（31*），最佳推理 **Baichuan M1**（52*）。应用 **Bai Xiaoying**（<1M MAU）。资金约1.0B美元。
+
+其他公司如 **Kunlun Tech**、**360 Security**、**iFlytek**、**Meituan** 和 **Xiaomi** 也在AI领域活跃。
+
+#### 领先语言模型与开源前沿
+
+![](https://i-blog.csdnimg.cn/img_convert/f1729f480e78991f59a8ac1ccbc6dc65.png)
+
+中美领先模型比较显示，美国整体领先，但中国不再落后。顶级中国模型包括 **DeepSeek R1 (May 2025)**（68）、**Alibaba Qwen3 235B A22B (Reasoning)**（62）、**ByteDance Seed-Thinking-v1.5**（62*）。美国包括 **OpenAI o3**（70*）、**Google Gemini 2.5 Pro**（68）、**xAI Grok 3 Mini Reasoning (high)**（67）。
+
+![](https://i-blog.csdnimg.cn/img_convert/9458d59cb15456fcee01a2a783a65ebb.png)
+
+开源权重前沿由 **DeepSeek** 领导：推理模型 **R1 (May 2025)**（68），非推理 **V3**（52）。中国在推理（如 **Qwen3 235B A22B (Reasoning)** 62）和非推理（如 **Qwen3 235B A22B** 47）中占有显著份额。
+
+#### 多模态AI与媒体生成进展
+
+中国公司在语言、语音、图像、视频和 3D 生成中全面参与。例如，**Alibaba** 在图像（**LHM**）和视频（**Wan 2.1**），**ByteDance** 在 TTS（**Seed-TTS**）和视频（**Seaweed-7B**）。
+
+![](https://i-blog.csdnimg.cn/img_convert/8dc97fa39709c1f64e6aaf387dcc5a9b.png)
+
+在文本到图像，2025年中美达到 **parity**，**OpenAI GPT-4o**（1165 ELO）略领先 **ByteDance Seedream 3.0**（1161）。其他如 **MiniMax Image-01**（1111）。
+
+文本到视频由美国领导，**Google Veo 3 Preview**（1247 ELO）远超 **Kuaishou Kling 2.0**（1133*）。中国如 **MiniMax T2V-01**（1053）、**Alibaba Wan 2.1**（1039）。
+
+![](https://i-blog.csdnimg.cn/img_convert/164b6c2343c8748a9f0732c35da3d6d9.png)
+
+图像到视频类似，美国领先，**Google Veo 3**（1222*）略超 **Kuaishou Kling 2.0**（1206*）和 **Runway Gen 4**（1199）。
+
+![](https://i-blog.csdnimg.cn/img_convert/edf63b0c2db65ed3fe3c31ee9d5981d2.png)
+
+
+#### 结语
+
+《**2025年Q2 中国人工智能现状分析报告**》显示，中国 AI 生态处于蓬勃发展中，尤其是在**开源**和**多模态领域**，**并且正在快速缩小与美国的差距**。
+AI 技术正以前所未有的速度发展，它将如何塑造我们的未来？让我们拭目以待。
